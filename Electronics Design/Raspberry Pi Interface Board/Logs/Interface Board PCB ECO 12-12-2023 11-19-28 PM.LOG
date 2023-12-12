@@ -1,0 +1,161 @@
+Removed Pin From Net: NetName=3.3V Pin=P1-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P1-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P1-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P1-4
+Removed Pin From Net: NetName=SPI_SS0 Pin=P1-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P1-6
+Removed Pin From Net: NetName=GND Pin=P1-7
+Removed Pin From Net: NetName=3.3V Pin=P2-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P2-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P2-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P2-4
+Removed Pin From Net: NetName=SPI_SS1 Pin=P2-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P2-6
+Removed Pin From Net: NetName=GND Pin=P2-7
+Removed Pin From Net: NetName=3.3V Pin=P3-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P3-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P3-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P3-4
+Removed Pin From Net: NetName=SPI_SS2 Pin=P3-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P3-6
+Removed Pin From Net: NetName=GND Pin=P3-7
+Removed Pin From Net: NetName=3.3V Pin=P4-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P4-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P4-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P4-4
+Removed Pin From Net: NetName=SPI_SS3 Pin=P4-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P4-6
+Removed Pin From Net: NetName=GND Pin=P4-7
+Removed Pin From Net: NetName=3.3V Pin=P5-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P5-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P5-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P5-4
+Removed Pin From Net: NetName=SPI_SS4 Pin=P5-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P5-6
+Removed Pin From Net: NetName=GND Pin=P5-7
+Removed Pin From Net: NetName=3.3V Pin=P6-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P6-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P6-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P6-4
+Removed Pin From Net: NetName=SPI_SS5 Pin=P6-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P6-6
+Removed Pin From Net: NetName=GND Pin=P6-7
+Removed Pin From Net: NetName=3.3V Pin=P7-1
+Removed Pin From Net: NetName=SPI_MOSI Pin=P7-2
+Removed Pin From Net: NetName=SPI_CLK Pin=P7-3
+Removed Pin From Net: NetName=SPI_MISO Pin=P7-4
+Removed Pin From Net: NetName=SPI_SS6 Pin=P7-5
+Removed Pin From Net: NetName=INTERRUPT Pin=P7-6
+Removed Pin From Net: NetName=GND Pin=P7-7
+Removed Pin From Net: NetName=3.3V Pin=P8-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P8-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P8-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P8-5
+Removed Pin From Net: NetName=GND Pin=P8-6
+Removed Pin From Net: NetName=3.3V Pin=P9-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P9-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P9-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P9-5
+Removed Pin From Net: NetName=GND Pin=P9-6
+Removed Pin From Net: NetName=3.3V Pin=P10-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P10-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P10-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P10-5
+Removed Pin From Net: NetName=GND Pin=P10-6
+Removed Pin From Net: NetName=3.3V Pin=P11-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P11-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P11-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P11-5
+Removed Pin From Net: NetName=GND Pin=P11-6
+Removed Pin From Net: NetName=3.3V Pin=P12-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P12-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P12-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P12-5
+Removed Pin From Net: NetName=GND Pin=P12-6
+Removed Pin From Net: NetName=3.3V Pin=P13-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P13-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P13-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P13-5
+Removed Pin From Net: NetName=GND Pin=P13-6
+Removed Pin From Net: NetName=3.3V Pin=P14-1
+Removed Pin From Net: NetName=I2C_SDA Pin=P14-2
+Removed Pin From Net: NetName=I2C_SCL Pin=P14-3
+Removed Pin From Net: NetName=INTERRUPT Pin=P14-5
+Removed Pin From Net: NetName=GND Pin=P14-6
+Removed Member From Class: ClassName=Interface Board Member=P1
+Removed Member From Class: ClassName=Interface Board Member=P3
+Removed Member From Class: ClassName=Interface Board Member=P4
+Removed Member From Class: ClassName=Interface Board Member=P5
+Removed Member From Class: ClassName=Interface Board Member=P6
+Removed Member From Class: ClassName=Interface Board Member=P7
+Removed Member From Class: ClassName=Interface Board Member=P8
+Removed Member From Class: ClassName=Interface Board Member=P9
+Removed Member From Class: ClassName=Interface Board Member=P10
+Removed Member From Class: ClassName=Interface Board Member=P11
+Removed Member From Class: ClassName=Interface Board Member=P12
+Removed Member From Class: ClassName=Interface Board Member=P13
+Removed Member From Class: ClassName=Interface Board Member=P14
+Change Component DesignItemId : Designator=P2 Old DesignItemId=Header 7 New DesignItemId=Header 2
+Change Component Footprint: Designator=P2 Old Footprint=B7B-XH-A New Footprint=B2B-XH-A
+Change Component Comment : Designator=P2 Old Comment=7 Pin Header New Comment=2 Pin Header
+Added Component: Designator=C?(C0805)
+Added Component: Designator=C?(C0805)
+Added Component: Designator=D1(SMC)
+Added Component: Designator=D?(SMC)
+Added Component: Designator=J?(Jumper 2 Pins)
+Added Component: Designator=Q1(SSM3K123TU,LF)
+Added Component: Designator=R11(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=U?(LT6700CS6-2#TRMPBF)
+Added Component: Designator=U?(K7805-3AR3)
+Added Pin To Net: NetName=5V Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-8
+Added Pin To Net: NetName=5V Pin=U?-9
+Added Pin To Net: NetName=5V Pin=U?-10
+Added Pin To Net: NetName=5V Pin=U?-11
+Added Pin To Net: NetName=12V Pin=D1-1
+Added Pin To Net: NetName=12V Pin=D?-2
+Added Pin To Net: NetName=12V Pin=P2-1
+Added Pin To Net: NetName=12V Pin=R?-1
+Added Pin To Net: NetName=12V Pin=U?-5
+Added Net: Name=12V
+Added Pin To Net: NetName=HEATER Pin=Q1-1
+Added Pin To Net: NetName=HEATER Pin=R11-2
+Added Net: Name=HEATER
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=D?-1
+Added Pin To Net: NetName=NetC?_1 Pin=U?-2
+Added Pin To Net: NetName=NetC?_1 Pin=U?-3
+Added Pin To Net: NetName=NetC?_1 Pin=U?-4
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=P2-2
+Added Pin To Net: NetName=NetD1_2 Pin=Q1-3
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetJ?_1 Pin=J?-1
+Added Pin To Net: NetName=NetJ?_1 Pin=U?-1
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Pin To Net: NetName=NetJ?_2 Pin=U?-1
+Added Net: Name=NetJ?_2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Pin To Net: NetName=NetR?_1 Pin=U?-3
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=Interface Board Member=Component C? F
+Added Member To Class: ClassName=Interface Board Member=Component D? S5DC-13-F
+Added Member To Class: ClassName=Interface Board Member=Component J? Jumper 2 Pin
+Added Member To Class: ClassName=Interface Board Member=Component Q1 SSM3K123TU,LF
+Added Member To Class: ClassName=Interface Board Member=Component R11 330O
+Added Member To Class: ClassName=Interface Board Member=Component R? 107kO
+Added Member To Class: ClassName=Interface Board Member=Component U? LT6700CS6-2#TRMPBF
