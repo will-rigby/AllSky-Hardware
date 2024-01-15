@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=3.3V Pin=C1-1
+Removed Pin From Net: NetName=3.3V Pin=C2-1
+Removed Pin From Net: NetName=HEATER Pin=Q1-1
+Removed Pin From Net: NetName=NetD3_2 Pin=Q1-3
+Change Component Footprint: Designator=P3 Old Footprint=B2B-XH-A New Footprint=S2B-XH-A(LF)(SN)
+Added Component: Designator=Q2(SSM3K123TU,LF)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=3.3V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=3.3V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=HEATER Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetD3_2 Pin=Q1-3
+Added Member To Class: ClassName=Interface Board Member=Component D1 S5DC-13-F
+Added Member To Class: ClassName=Interface Board Member=Component U1 K7805-3AR3
