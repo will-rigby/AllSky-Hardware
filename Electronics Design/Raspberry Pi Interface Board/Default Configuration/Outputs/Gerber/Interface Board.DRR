@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Interface Board.CSPcbDoc   1/05/2024  4:35:48 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Interface Board.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.81mil (0.29997mm)     Round          32               8.11 Inch (206.08 mm)
+T2        31.5mil (0.8001mm)       Round          40               5.71 Inch (145.09 mm)
+T3        35.43mil (0.89992mm)     Round          2                0.10 Inch (2.50 mm)
+T4        47.24mil (1.1999mm)      Round          12               1.10 Inch (27.94 mm)
+T5        51.18mil (1.29997mm)     Round          4                1.44 Inch (36.50 mm)
+T6        106.3mil (2.70002mm)     Round          3                5.27 Inch (133.93 mm)
+---------------------------------------------------------------------------
+Totals                                            93               21.73 Inch (552.04 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
