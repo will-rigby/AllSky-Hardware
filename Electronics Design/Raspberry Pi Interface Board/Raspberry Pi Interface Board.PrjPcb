@@ -94,10 +94,6 @@ DocumentUniqueId=
 DocumentPath=Default Configuration\Outputs\BOM\BOM_PartType-Raspberry Pi Interface Board.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Outputs\Design Rule Check - Interface Board.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
