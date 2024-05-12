@@ -38,10 +38,10 @@ OutputName1=BOM_PartType
 OutputCategory1=Report
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=0
-OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=0
-OutputEnabled1_OutputMedium3=0
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=2
+OutputEnabled1_OutputMedium2=2
+OutputEnabled1_OutputMedium3=1
 OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4 210 x 297 mm|PaperIndex=9
@@ -62,17 +62,17 @@ Configuration1_Item7=Designator=88|Quantity=137|Supplier Part Number=197|Manufac
 OutputType2=Schematic Print
 OutputName2=Schematic Print
 OutputCategory2=Documentation
-OutputDocumentPath2=
+OutputDocumentPath2=All SCH Documents
 OutputVariantName2=
-OutputEnabled2=0
-OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=0
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=1
+OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4 210 x 297 mm|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+Configuration2_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=False|ShowProbe=False|ShowBlanket=False|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType3=PCB Print
 OutputName3=PCB Print
 OutputCategory3=Documentation
@@ -121,7 +121,7 @@ OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=1
+OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
@@ -134,7 +134,7 @@ OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=2
+OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1

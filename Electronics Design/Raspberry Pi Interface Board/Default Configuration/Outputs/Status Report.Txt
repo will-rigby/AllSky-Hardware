@@ -1,16 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 4:35:48 PM On 1/05/2024
+Start Output Generation At 12:37:04 PM On 10/05/2024
 
-Output: NC Drill
-Type  : NC Drill
-From  : PCB Document [Interface Board.CSPcbDoc]
-   Generated File[Interface Board.TXT]
-   Generated File[Interface Board.LDP]
-   Generated File[Interface Board.DRR]
+Output: BOM_PartType
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Raspberry Pi Interface Board.PrjPcb]
+   Generated File[BOM_PartType-Raspberry Pi Interface Board.xlsx]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 4:35:48 PM On 1/05/2024
+Finished Output Generation At 12:37:31 PM On 10/05/2024
