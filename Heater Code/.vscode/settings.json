@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "gpio.h": "c",
-        "mcp3021.h": "c"
+        "mcp3021.h": "c",
+        "heater.h": "c"
     }
 }
