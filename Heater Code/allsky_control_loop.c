@@ -63,6 +63,9 @@ void intHandler(int dummy) {
 
 int main(int argc, char* argv[]){
     signal(SIGINT, intHandler);
+    signal(SIGKILL, intHandler);
+    signal(SIGSTOP, intHandler);
+    signal(SIGTERM, intHandler);
     if(init_peripherals()){
         printf("Failed to initialise peripherals.\r\nExiting.\r\n");
         return 1;
@@ -89,7 +92,7 @@ int main(int argc, char* argv[]){
         time(&rawtime);
         timeinfo = localtime(&rawtime);
         
-        if((temperature < 30) && ((timeinfo->tm_hour > 18) || timeinfo->tm_hour < 6)){
+        if((temperature < 35) && ((timeinfo->tm_hour > 18) || timeinfo->tm_hour < 6)){
             heaterState = 1;
         }
         printf("Set Heater value\r\n");
