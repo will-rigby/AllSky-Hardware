@@ -58,7 +58,9 @@ int init_peripherals(void){
 }
 
 void intHandler(int dummy) {
+    heater_off();
     keepRunning = 0;
+    printf("Signal to stop received.\r\n");
 }
 
 int main(int argc, char* argv[]){
@@ -91,26 +93,43 @@ int main(int argc, char* argv[]){
         
         time(&rawtime);
         timeinfo = localtime(&rawtime);
-        
-        if((temperature < 35) && ((timeinfo->tm_hour > 18) || timeinfo->tm_hour < 6)){
-            heaterState = 1;
+        printf("%02d:%02d:%02d\r\n", timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
+        if((timeinfo->tm_hour > 18) || (timeinfo->tm_hour < 6)){
+            if(temperature < 25){
+                heaterState = 2;
+            } else if (temperature < 35){
+                heaterState = 1;
+            }
+            
         }
         printf("Set Heater value\r\n");
         log_state(temperature, voltage, heaterState, LOG_FILE);
         printf("Logged\r\n");
         
 
-        if(heaterState){
+        if(heaterState == 2){
             heater_on();
-            printf("Heater ON\r\n");
-        } else{
+            printf("Heater ON for 5 seconds.\r\n");
+            sleep(5);
             heater_off();
+            printf("Heater OFF for 25 seconds.\r\n");
+            sleep(25);  
+        } else if (heaterState == 1){
+            heater_on();
+            printf("Heater ON for 5 seconds.\r\n");
+            sleep(5);
+            heater_off();
+            printf("Heater OFF for 55 seconds.\r\n");
+            sleep(55);  
+        } else {
+            heater_off();
+            sleep(60);
         }
-        printf("Set Heater\r\n");
-        sleep(5);
         heater_off();
-        printf("Heater OFF\r\n");
-        sleep(55);
+        
+        
+        
+       
 
     }
     heater_close();
