@@ -64,6 +64,7 @@ void intHandler(int dummy) {
 }
 
 int main(int argc, char* argv[]){
+    signal(2, intHandler);
     signal(SIGINT, intHandler);
     signal(SIGKILL, intHandler);
     signal(SIGSTOP, intHandler);
@@ -95,9 +96,9 @@ int main(int argc, char* argv[]){
         timeinfo = localtime(&rawtime);
         printf("%02d:%02d:%02d\r\n", timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
         if((timeinfo->tm_hour > 18) || (timeinfo->tm_hour < 6)){
-            if(temperature < 25){
+            if(temperature < 20){
                 heaterState = 2;
-            } else if (temperature < 35){
+            } else if (temperature < 30){
                 heaterState = 1;
             }
             
