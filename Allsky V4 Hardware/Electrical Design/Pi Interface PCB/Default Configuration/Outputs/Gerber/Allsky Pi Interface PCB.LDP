@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\HomeProjects\AllSkyHardware\Allsky V4 Hardware\Electrical Design\Pi Interface PCB\Allsky Pi Interface PCB.CSPcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=allsky pi interface pcb-roundholes.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=allsky pi interface pcb-slotholes.txt|LayerPairs=gtl,gbl

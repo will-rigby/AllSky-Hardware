@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Allsky Pi Interface PCB.CSPcbDoc   27/10/2025  9:37:41 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Allsky Pi Interface PCB-RoundHoles.TXT
+ASCII SlotHoles File : Allsky Pi Interface PCB-SlotHoles.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.81mil (0.29997mm)     Round          117              21.36 Inch (542.65 mm)
+T2        15.75mil (0.40005mm)     Round          15               1.46 Inch (37.18 mm)
+T3        31.5mil (0.8001mm)       Round          40               5.10 Inch (129.67 mm)
+T4        31.5mil (0.8001mm)       Slot           2                302.96 Inch (7695.16 mm)
+T5        35.43mil (0.89992mm)     Round          4                0.41 Inch (10.50 mm)
+T6        39.37mil (1mm)           Round          24               8.94 Inch (227.01 mm)
+T7        51.18mil (1.29997mm)     Round          4                1.57 Inch (40.00 mm)
+T8        106.3mil (2.70002mm)     Round          4                6.50 Inch (165.00 mm)
+---------------------------------------------------------------------------
+Totals                                            210              348.31 Inch (8847.16 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

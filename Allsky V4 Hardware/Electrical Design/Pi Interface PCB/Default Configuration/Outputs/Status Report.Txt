@@ -1,0 +1,17 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:37:41 PM On 27/10/2025
+
+Output: NC Drill
+Type  : NC Drill
+From  : PCB Document [Allsky Pi Interface PCB.CSPcbDoc]
+   Generated File[Allsky Pi Interface PCB-RoundHoles.TXT]
+   Generated File[Allsky Pi Interface PCB-SlotHoles.TXT]
+   Generated File[Allsky Pi Interface PCB.LDP]
+   Generated File[Allsky Pi Interface PCB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 9:37:41 PM On 27/10/2025

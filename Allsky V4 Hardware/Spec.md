@@ -8,7 +8,8 @@ The following mechanical design features:
 
 ## Electrical
 - Main Pi PCB
-    - GPS
+    - 5V Supply 
+    - GPS (SAM-M10Q-00B)
     - Heater Control
         - Fan
         - Temperature Sensor
@@ -18,6 +19,8 @@ The following mechanical design features:
 - Sensor PCB
     - IMU
     - Temperature Sensor
+    - Humidity Sensor (BME280)
 - Separate Solar PCB with RS-232 (to replace with own MPPT controller in future)
     - Input Voltage & Current Sense
     - Output Voltage & Current Sense
+

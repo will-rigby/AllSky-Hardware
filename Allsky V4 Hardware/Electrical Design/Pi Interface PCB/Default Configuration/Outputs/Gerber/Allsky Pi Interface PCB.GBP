@@ -1,0 +1,25 @@
+G04*
+G04 #@! TF.GenerationSoftware,Altium Limited,CircuitStudio,1.5.2 (1.5.2.30)*
+G04*
+G04 Layer_Color=16770453*
+%FSLAX25Y25*%
+%MOIN*%
+G70*
+G01*
+G75*
+G04:AMPARAMS|DCode=22|XSize=96.46mil|YSize=96.46mil|CornerRadius=2.41mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|*
+%AMROUNDEDRECTD22*
+21,1,0.09646,0.09163,0,0,0.0*
+21,1,0.09163,0.09646,0,0,0.0*
+1,1,0.00482,0.04582,-0.04582*
+1,1,0.00482,-0.04582,-0.04582*
+1,1,0.00482,-0.04582,0.04582*
+1,1,0.00482,0.04582,0.04582*
+%
+%ADD22ROUNDEDRECTD22*%
+D22*
+X1989772Y994634D02*
+D03*
+X1991740Y931642D02*
+D03*
+M02*
