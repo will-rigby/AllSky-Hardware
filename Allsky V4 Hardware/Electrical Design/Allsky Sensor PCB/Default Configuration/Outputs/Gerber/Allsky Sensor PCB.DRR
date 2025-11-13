@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Allsky Sensor PCB.CSPcbDoc   30/10/2025  10:33:48 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Allsky Sensor PCB.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.81mil (0.29997mm)     Round          8                1.69 Inch (42.84 mm)
+T2        39.37mil (1mm)           Round          4                0.30 Inch (7.50 mm)
+T3        129.92mil (3.29997mm)    Round          2                0.59 Inch (15.00 mm)
+---------------------------------------------------------------------------
+Totals                                            14               2.57 Inch (65.34 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

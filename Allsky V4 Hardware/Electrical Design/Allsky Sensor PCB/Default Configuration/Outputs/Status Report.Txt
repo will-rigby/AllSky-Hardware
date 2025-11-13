@@ -1,0 +1,16 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:33:48 PM On 30/10/2025
+
+Output: NC Drill
+Type  : NC Drill
+From  : PCB Document [Allsky Sensor PCB.CSPcbDoc]
+   Generated File[Allsky Sensor PCB.TXT]
+   Generated File[Allsky Sensor PCB.LDP]
+   Generated File[Allsky Sensor PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:33:48 PM On 30/10/2025
