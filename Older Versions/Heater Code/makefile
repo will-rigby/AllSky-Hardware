@@ -8,6 +8,7 @@ OBJ4 = mcp3021.o read_battery_voltage.o
 OBJ5 = mcp9808.o mcp3021.o allsky_hw_log.o
 OBJ6 = heater.o mcp9808.o mcp3021.o allsky_control_loop.o
 OBJ7 = heater.o mcp9808.o mcp3021.o allsky_control_oneshot.o
+OBJ8 = mcp3021.o read_battery_voltage_to_file.o
 
 
 EXTRA_LIBS=-lm -lpigpio -lrt
@@ -35,6 +36,10 @@ allsky_control_loop: $(OBJ6)
 
 allsky_control_oneshot: $(OBJ7)
 	$(CC) -o $@ $^ $(CFLAGS) $(EXTRA_LIBS)
+
+read_battery_voltage_to_file: $(OBJ8)
+	$(CC) -o $@ $^ $(CFLAGS) $(EXTRA_LIBS)
+	
 
 .PHONY: clean
 
